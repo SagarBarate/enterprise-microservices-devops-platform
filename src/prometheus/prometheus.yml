@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: product-catalog
+    static_configs:
+      - targets: ['product-catalog:9090']
+  - job_name: payment
+    static_configs:
+      - targets: ['payment:9090']
+  - job_name: recommendation
+    static_configs:
+      - targets: ['recommendation:9090']
+  - job_name: shipping
+    static_configs:
+      - targets: ['shipping:9090']
