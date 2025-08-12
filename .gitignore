@@ -1,0 +1,171 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+.dockerhub.env
+.ghcr.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+
+# Build artifacts
+dist/
+build/
+out/
+.next/
+bin/
+obj/
+target/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+cypress/videos/
+cypress/screenshots/
+
+# OS files
+Thumbs.db
+.DS_Store
+*.swp
+
+# Gradle
+.gradle/
+.gradle-properties/
+.nb-gradle/
+.nb-gradle-properties/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Generated files
+*.generated.*
+genproto/
+pb/
+protos/
+
+# Kubernetes secrets
+*-secret.yaml
+*-secrets.yaml
+
+# Local configuration
+config.local.*
+settings.local.*
+
+# Package manager locks (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+# composer.lock
+
+# Test artifacts
+test/tracetesting/tracetesting-vars.yaml
+
+# Android
+*.apk
+*.aab
+
+# Build directories
+src/shipping/target/
+src/currency/build/
+
+# Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Rust
+Cargo.lock
+
+# C/C++
+*.o
+*.a
+*.so
+*.dylib
+
+# Ruby
+*.gem
+.bundle/
+Gemfile.lock
+
+# PHP
+composer.phar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# C# / .NET
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.cache
+
+# React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.cache/
+.temp/
+tmp/
+temp/
