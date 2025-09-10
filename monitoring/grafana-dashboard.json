@@ -1,0 +1,27 @@
+{
+  "title": "Platform Overview",
+  "uid": "platform-overview",
+  "panels": [
+    {
+      "title": "Request Rate",
+      "type": "graph",
+      "targets": [
+        { "expr": "rate(http_requests_total[5m])", "legendFormat": "{{service}}" }
+      ]
+    },
+    {
+      "title": "Error Rate",
+      "type": "graph",
+      "targets": [
+        { "expr": "rate(http_requests_total{status=~\"5..\"}[5m])", "legendFormat": "{{service}}" }
+      ]
+    },
+    {
+      "title": "Pod CPU Usage",
+      "type": "graph",
+      "targets": [
+        { "expr": "rate(container_cpu_usage_seconds_total[5m])", "legendFormat": "{{pod}}" }
+      ]
+    }
+  ]
+}
