@@ -2,7 +2,7 @@
 
 A production-ready microservices platform demonstrating modern DevOps practices — containerization, Kubernetes orchestration, CI/CD pipelines, and full observability.
 
-> 💡 **DevOps Implementation**: All DevOps work including Dockerfiles, Kubernetes manifests, CI/CD pipelines, monitoring, and observability configs are implemented on the [`devops`](https://github.com/SagarBarate/enterprise-microservices-devops-platform/tree/devops) branch with a clean 26-commit contribution timeline.
+> 💡 **DevOps Implementation**: All DevOps work including Dockerfiles, Kubernetes manifests, CI/CD pipelines, monitoring, and observability configs are implemented on the [`devops`](https://github.com/SagarBarate/enterprise-microservices-devops-platform/tree/devops) branch with a clean contribution timeline.
 
 ## Tech Stack
 
