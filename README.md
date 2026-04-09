@@ -21,7 +21,7 @@ A production-ready microservices platform demonstrating modern DevOps practices 
 | Branch | Purpose |
 |--------|---------|
 | `main` | Application source code and platform scaffold |
-| [`devops`](https://github.com/SagarBarate/enterprise-microservices-devops-platform/tree/devops) | All DevOps implementation — 26 commits from Aug–Sep 2025 |
+| [`devops`](https://github.com/SagarBarate/enterprise-microservices-devops-platform/tree/devops) | All DevOps implementation |
 
 ## DevOps Highlights (devops branch)
 
